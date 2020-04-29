@@ -1,10 +1,10 @@
-#React Form UI
+## React Form UI
 It is an authentication web application made with react ui library and google firebase
 
-#Demo
+## Demo
 https://react-form-ui.web.app
 
-#Using the application and testing
+## Using the application and testing
 to use the app do the following
 
 1. try to type wrong email and see the error or leave an input emapty and see the error
@@ -17,7 +17,8 @@ to use the app do the following
 8. logout from your account
 9. login again and delete your account
 
-#Contact me or hire me
+## Contact me or hire me
 bounekeur@gmail.com
+freelancer: https://www.freelancer.com/u/Aladinyo93
 
 make sure that you put a star to encourage us
