@@ -1,5 +1,6 @@
 ## React Form UI
-It is an authentication web application made with react ui library and google firebase
+ It is an authentication web application made with react ui library and google firebase
+ It is responsive and works on mobile phones
 
 ## Demo
 https://react-form-ui.web.app
