@@ -1,0 +1,55 @@
+input:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-top: 235px;/*225px*/
+    box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.733);
+}
+
+input[type="text"],input[type="password"] {
+    width: 236px;
+    height: 37px;
+    background: #F9F9F9;
+    border-radius: 24px;
+    border: none;
+    padding-left: 48px;
+    padding-right: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #A57BFF;
+}
+
+input[type="password"] {
+    padding-right: 40px;
+}
+
+.input-container {
+    position: absolute;
+    transition: opacity 400ms linear, top 400ms ease-in-out;
+}
+
+.input-error {
+    animation: input-error 130ms ease-in;
+}
+
+.input-error input {
+    color: #EA2027;
+    background-color: rgb(255, 245, 245);
+}
+
+.input-error svg path {
+    fill: #EA2027;
+}
+
+@keyframes input-error {
+    33% {
+        transform: translateX(-2.5%);
+    }
+    66% {
+        transform: translateX(3%);
+    }
+    100% {
+        transform: translateX(0%); 
+    }
+}

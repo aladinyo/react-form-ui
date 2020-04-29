@@ -1,0 +1,28 @@
+.delete-account {
+    padding-top: 36.29px;
+}
+
+.delete-face {
+    position: static;
+    transform: none;
+    margin-bottom: 40.5px;
+}
+
+.logged-in .delete-btn1 {
+    width: 176px;
+    height: 34px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 19px;
+    margin-top: 30px;
+}
+
+.logged-in .delete-btn2 {
+    margin-top: 30px;
+    width: 176px;
+    height: 34px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+}

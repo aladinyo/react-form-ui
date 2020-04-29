@@ -1,0 +1,54 @@
+.logged-in {
+    padding-top: 50px;
+    position: absolute;
+    top: 0px;
+    left : 0;
+    text-align: center;
+    height: 462px;
+    width: 100%;
+    background: #4D05E8;
+    z-index: 6;
+    transition: all 500ms ease-in-out, opacity 300ms linear;
+}
+
+.logged-in .child {
+    transition: all 400ms ease-in-out, transform 500ms ease-in-out;
+}
+
+.logged-in .title {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.logged-in p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.logged-in p:first-of-type {
+    margin-bottom: 10px;
+}
+
+.logged-in span {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logged-in button {
+    width: 176px;
+    height: 34px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 26px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 26px;
+}
+
+.logged-in button:focus {
+    outline: none;
+}

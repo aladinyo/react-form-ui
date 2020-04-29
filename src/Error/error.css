@@ -1,0 +1,10 @@
+.error {
+    transition: opacity ease-in-out 300ms !important;
+    width: 100% !important;
+}
+.error-title {
+    transition: opacity ease-in-out 300ms;
+}
+.btn-err {
+    transition: transform ease-in-out 300ms, left ease-in-out 400ms,opacity ease-in-out 300ms !important;
+}

@@ -1,0 +1,78 @@
+.or {
+    font: Bold 17px Roboto;
+    color: white;
+    margin-top: 18px;
+}
+
+.form-title {
+    transition: opacity 400ms ease-in-out
+}
+
+.form-title h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.form-title p {
+    color: #E3E2E2;
+    font-weight: regular;
+}
+
+form, .error {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    width: 50%;
+    height: 462px;
+    background: #4D05E8;
+    padding-top: 22px;
+    z-index: 2;
+    transition: left 400ms ease-in-out;
+}
+
+.remember-me {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 260px;
+    transition: opacity 400ms ease-in-out, top 400ms ease-in-out;
+}
+
+.remember-me span {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.remember-me input[type="checkbox"] {
+    position: relative;
+    margin-bottom: 1.8px;
+    width: 14px;
+    height: 15px;
+    border-radius: 4px;
+    background: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.remember-me input[type="checkbox"]:checked::after {
+    content: "\2713";
+    font-size: 13px;
+    font-weight: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.span {
+    margin-right: 25px;
+}
+
+.form-input-container {
+    transition: opacity 100ms ease-in-out;
+}
