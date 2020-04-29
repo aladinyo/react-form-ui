@@ -10,7 +10,7 @@ https://react-form-ui.web.app
 to use the app do the following
 
 1. try to type wrong email and see the error or leave an input emapty and see the error
-2. create an account (use a valid email
+2. create an account (use a valid email)
 3. try to create an account with the same email and see the error
 4. login to your account without verifying your email
 5. now verify your email
