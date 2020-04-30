@@ -20,7 +20,8 @@ to use the app do the following
 9. login again and delete your account or keep it
 
 ## Contact me or hire me
-bounekeur@gmail.com
+email: bounekeur@gmail.com
+
 freelancer: https://www.freelancer.com/u/Aladinyo93
 
 make sure that you put a star to encourage us
