@@ -23,7 +23,7 @@ to use the app do the following
 You have the adobe xd file in the root folder wich contains the desgin of the application, you can modify it to create your own design version of the app
 
 ## Installing and lunching the app
-after you downloaded the projects in the root folder run these commands
+after you downloaded the project, in the root folder run these commands
 1. npm install: to install all node modules
 2. npm start: run the production mode to start working on the app
 3. npm build: run the build mode to get the bundled version of the app which is optimized and ready for deployment
