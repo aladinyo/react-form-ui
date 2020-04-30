@@ -20,8 +20,7 @@ to use the app do the following
 9. login again and delete your account or keep it
 
 ## Prototype design with adobe xd
-You have the adobe xd file wich contains the desgin of the application you can modify it to create your own design version
-of the app
+You have the adobe xd file in the root folder wich contains the desgin of the application, you can modify it to create your own design version of the app
 
 ## Installing and lunching the app
 after you downloaded the projects in the root folder run these commands
