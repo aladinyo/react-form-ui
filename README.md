@@ -30,8 +30,10 @@ after you downloaded the project, in the root folder run these commands
 
 ## Firebase configuration and deployment
 While working with the app make sure that you use your own firebase configuration.
+
 In the index.js modify the firebaseConfig object.
-Also if you want to deploy the app with firebase initialize your app with your account
+
+Also if you want to deploy the app with firebase initialize the app with your google firebase account.
 
 ## Contact me or hire me
 email: bounekeur@gmail.com
