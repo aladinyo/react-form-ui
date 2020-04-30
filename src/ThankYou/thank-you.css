@@ -1,0 +1,155 @@
+.thank-container {
+    position: absolute;
+    left: 50%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 600ms ease-in-out;
+
+}
+
+.thank-top {
+    top: 40%;
+}
+
+.thank-container .title {
+    color: black;
+    font-size: 29px;
+    margin-bottom: 6px;
+}
+
+.thank-container .text {
+    color: #9B9B9B;
+    font-size: 21px;
+}
+.btn-social-container button {
+    vertical-align: middle;
+    font-size: 17px;
+    font-weight: bold;
+    width: 178px;
+    height: 34px;
+    color: #4D05E8;
+    background-color: white;
+    border: 2px solid #4D05E8;
+    border-radius: 17px;
+    transition: background 400ms ease-in-out, color 400ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn-social-container button:focus {
+    outline: none;
+}
+
+.btn-social-container button:hover,
+.btn-social-container button:active {
+    background-color: #4D05E8;
+    color: white;
+}
+.btn-social-container button:hover g,
+.btn-social-container button:active g,
+.btn-social-container button:hover path,
+.btn-social-container button:active path  {
+    fill: white;
+}
+
+.btn-social-container {
+    margin-right: 10px;
+}
+
+.btn-social-container .thank-btn-2 {
+    width: 138px;
+}
+
+#Label1 {
+    animation: animate-label-1 cubic-bezier(.69,.01,.3,1) 1000ms infinite alternate
+}
+
+#Label2 {
+    animation: animate-label-2 cubic-bezier(.69,.01,.3,1) 1000ms infinite alternate
+}
+
+#Data1 {
+    animation: data1 cubic-bezier(.69,.01,.3,1) 1000ms infinite alternate
+}
+
+#Data2 {
+    animation: data2 cubic-bezier(.69,.01,.3,1) 1000ms infinite alternate
+}
+
+#Data3 {
+    animation: data3 cubic-bezier(.69,.01,.3,1) 1000ms infinite alternate
+}
+
+#Data4 {
+    animation: data4 cubic-bezier(.69,.01,.3,1) 1000ms infinite alternate
+}
+
+#Data5 {
+    animation: data5 cubic-bezier(.69,.01,.3,1) 1000ms infinite alternate
+}
+
+@keyframes data1 {
+    0% {
+        transform: translate(-0.21px, 103.134px);
+    }
+    100% {
+        transform: translate(-0.21px, 0.134px);
+    }
+}
+
+@keyframes data2 {
+    0% {
+        transform: translate(-0.21px, 78.134px);
+    }
+    100% {
+        transform: translate(-0.21px, 26.134px);
+    }
+}
+
+@keyframes data3 {
+    0% {
+        transform: translate(-0.21px, 52.134px);
+    }
+    100% {
+        transform: translate(-0.21px, 103.134px);
+    }
+}
+
+@keyframes data4 {
+    0% {
+        transform: translate(-0.21px, 26.134px);
+    }
+    100% {
+        transform: translate(-0.21px, 52.134px);
+    }
+}
+
+@keyframes data5 {
+    0% {
+        transform: translate(-0.21px, 0.134px);
+    }
+    100% {
+        transform: translate(-0.21px, 78.134px);
+    }
+}
+
+@keyframes animate-label-1 {
+    from {
+        width: 130,11px;
+    }
+    to {
+        width: 30px
+    }
+}
+
+@keyframes animate-label-2 {
+    from {
+        width: 30;
+    }
+    to {
+        width: 90px
+    }
+}

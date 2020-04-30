@@ -1,0 +1,72 @@
+.verify-email {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    height: 462px;
+    background: #4D05E8;
+    z-index: 6;
+    transition: all 500ms ease-in-out, opacity 300ms linear;
+}
+
+.verify-email .child {
+    transition: all 400ms ease-in-out;
+}
+
+.verify-email .title {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+.verify-email .text {
+    color: #E3E2E2;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.verify-email p {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.verify-email span {
+    color: white;
+}
+
+.verify-btn {
+    margin-top: 24px;
+}
+
+.verify-email button {
+    width: 176px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.verify-email button:focus {
+    outline: none;
+}
+
+.verify-btn1 {
+    margin-right: 18px;
+    background: #FFFFFF;
+    color: #4D05E8;
+    border-radius: 26px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid #FFFFFF;
+}
+
+.verify-btn2 {
+    margin-left: 18px;
+    background: transparent;
+    color: white;
+    border-radius: 26px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid #FFFFFF;
+}

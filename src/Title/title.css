@@ -1,0 +1,22 @@
+* {
+    font-weight: Bold;
+    font-family: Roboto;
+    color: #4D05E8;
+    margin: 0;
+}
+
+.title-container {
+    margin-top: 10px;
+}
+
+.title {
+    font-weight: Bold;
+    font-size: 31px;
+    margin-bottom: 2px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 15px;
+    color: #B09DDB;
+}
