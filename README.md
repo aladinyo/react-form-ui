@@ -19,6 +19,21 @@ to use the app do the following
 8. logout from your account
 9. login again and delete your account or keep it
 
+## Prototype design with adobe xd
+You have the adobe xd file with contains the desgin of the application you can modify it to create your own design version
+of the app
+
+## Installing and lunching the app
+after you downloaded the projects in the root folder run these commands
+1. npm install: to install all node modules
+2. npm start: run the production mode to start working on the app
+3. npm build: run the build mode to get the bundled version of the app which is optimized and ready for deployment
+
+## Firebase configuration and deployment
+While working with the app make sure that you use your own firebase configuration.
+In the index.js modify the firebaseConfig object.
+Also if you want to deploy the app with firebase initialize your app with your account
+
 ## Contact me or hire me
 email: bounekeur@gmail.com
 
