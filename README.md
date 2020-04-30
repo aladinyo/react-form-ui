@@ -17,7 +17,7 @@ to use the app do the following
 6. try to login to your account with wrong password then with wrong email and see the error
 7. login to your account
 8. logout from your account
-9. login again and delete your account
+9. login again and delete your account or keep it
 
 ## Contact me or hire me
 bounekeur@gmail.com
